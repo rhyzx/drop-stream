@@ -2,14 +2,14 @@
 > Drop beginning bytes in a stream
 
 ```
-npm install drop-stream
+npm install drop-stream2
 ```
 
 ## Usage
 
 ```js
 const bl = require('bl')
-const { drop, dropBytes, dropUntil } = require('drop-stream')
+const { drop, dropBytes, dropUntil } = require('drop-stream2')
 
 
 bl('hello\nworld')
