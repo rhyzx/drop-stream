@@ -1,0 +1,25 @@
+{
+  "name": "drop-stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Drop beginning bytes in a stream",
+  "repository": "rhyzx/drop-stream",
+  "keywords": [
+    "stream",
+    "streaming",
+    "drop",
+    "slice",
+    "truncate",
+    "strip",
+    "match",
+    "until"
+  ],
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "bl": "^3.0.0",
+    "tape": "^4.10.2"
+  }
+}
